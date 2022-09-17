@@ -1,11 +1,60 @@
-.menu{
-    color: #00acee;
-    font-size:15px;
-    font-family: 'Matrix', sans-serif;
-    text-align: left;
-    text-align: top;
-}
 body{
-    background-color: #161616;
+    background-color: #111111;
+    color:whitesmoke;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+a:link,:hover{
+    text-decoration: none;
+    text-decoration: whitesmoke;
+    color:whitesmoke;
+}
+
+.header{
+    background-color: #db0000;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    color: whitesmoke;
+    margin: 0 10px;
+    display:inline;
+    font-size: 25px;
+}
+
+.menu a{
+    color: white;
+}
+
+img{
     text-align: center;
+    border: solid 1px white;
+    width: 600px;
+    height: 600px;
+}
+
+.memes li{
+    text-align: left;
+    font-size: 50px;
+    padding: 100px;
+}
+
+ol{
+    list-style: none;
 }
