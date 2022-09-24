@@ -18,8 +18,7 @@ a:link,:hover{
 .header{
     background-color: #db0000;
     height: 100px;
-    display: flex;
-    justify-content: space-between;
+    display: flex;  
     align-items: center;
 }
 
@@ -28,8 +27,14 @@ a:link,:hover{
     width: 100px;
 }
 
-.menu ul{
-    list-style: none;
+.header h2{
+    font-size: 25px;
+    padding: 25px;
+}
+
+.header h3{
+    font-size:  20px;
+    padding: 25px;
 }
 
 .menu li{
@@ -38,7 +43,7 @@ a:link,:hover{
     font-size: 25px;
 }
 
-.menu a{
+.header a{
     color: white;
 }
 
