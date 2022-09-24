@@ -32,9 +32,18 @@
     <p>A "Linha do tempo" possui o meme que mais fez sucesso nos seus respec tivos anos</p>
     <p>Se voce quiser ver alguns memes entre em "Galeria de memes"</p>
 
-    <img src="imagens/favicon.ico" alt="icone do site">
-    <a href="PackZaoDeMemes2.0.zip" download="PackZaoDeMemes2.0" type="aplication/zip"><img
-            src="imagens/iconedownload.png" width="250px" height="250px"></a>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/trollface-m.png" type="image/png">
+        <source media="(max-width: 350px)" srcset="imagens/trollface-p.png" type="image/png">
+        <img src="imagens/trollface-g.png" alt="troll face">
+    </picture>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/iconedownload-m.png" type="image/png">
+        <source media="(max-width: 350px)" srcset="imagens/iconedownload-p.png" type="image/png">
+        <a href="PackZaoDeMemes2.0.zip" download="PackZaoDeMemes2.0" type="aplication/zip"><img src="imagens/iconedownload-g.png"></a>
+    </picture>
+    
 </body>
 
 </html>

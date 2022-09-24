@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="imagens/favicon.ico" image="x-icon"/>
     <link rel="stylesheet" href="style.css">
     <title>FDP - SAC</title>
     
@@ -27,7 +27,13 @@
     <h1>Aqui e onde voce pode fazer qualquer reclamacao</h1>
     <h2>Caso voce tenha alguma reclamacao siga uma das opcoes abaixo</h2>
     <h3>Ligue ao nosso SAC 4002-8922 ou fale com nosso assistente,Ednaldo</h3>
-    <img src="imagens/EdnaldoPereira.jpeg" alt="Ednaldo Pereira tomando um cafezinho rsrs" class="meme">
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/EdnaldoPereira-m.jpg" type="image/jpg">
+        <source media="(max-width: 350px)" srcset="imagens/EdnaldoPereira-p.jpg" type="image/jpg">
+        <img src="imagens/EdnaldoPereira-g.jpg" alt="Ednaldo Pereira tomando um cafezinho rsrs" class="meme">
+    </picture>
+    
     <p> Eai algum problema?</p>
     <p> Se tiver volta mais tarde,to tomando meu cafezin</p>
     <p>Porem se quiser esperar pode escutar nossa musica de espera</p>
