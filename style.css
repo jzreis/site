@@ -27,14 +27,18 @@ a:link,:hover{
     width: 100px;
 }
 
+.header h1{
+    font-size: 75px;
+    padding: 25px;
+}
 .header h2{
     font-size: 25px;
-    padding: 25px;
+    padding: 10px;
 }
 
 .header h3{
-    font-size:  20px;
-    padding: 25px;
+    font-size: 15px;
+    padding: 5px;
 }
 
 .menu li{
@@ -47,28 +51,15 @@ a:link,:hover{
     color: white;
 }
 
-.meme{
-    padding-right: 5px;
-    padding-left: 5px;
-    width: 600px;
-    height: 600px;
-}
-
-.memes li{
-    text-align: left;
-    font-size: 50px;
-    padding: 100px;
-}
-
 ol{
     list-style: none;
 }
 
-.falasdorei{
-    font-size: 20px;
-    position:absolute;
-    bottom: 500px;
-    left: 620px;
-    padding: 5px;
-    
+.video{
+    width: 600px;
+    height: 600px;
+}
+
+.ldt li{
+    font-size:75px;
 }
