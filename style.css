@@ -1,6 +1,8 @@
+@charset "UTF-8";
+
 body{
-    background-color: #111111;
-    color:whitesmoke;
+    background-color: #010D00;
+    color: #F2E6D8;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,12 +13,12 @@ html, body{
 
 a:link,:hover{
     text-decoration: none;
-    text-decoration: whitesmoke;
-    color:whitesmoke;
+    text-decoration: #F2E6D8;
+    color:#F2E6D8;
 }
 
 .header{
-    background-color: #db0000;
+    background-color: #8C0F1A;
     height: 100px;
     display: flex;  
     align-items: center;
@@ -28,6 +30,7 @@ a:link,:hover{
 }
 
 .header h1{
+
     font-size: 75px;
     padding: 25px;
 }
@@ -48,18 +51,18 @@ a:link,:hover{
 }
 
 .header a{
-    color: white;
+    color: #F2E6D8;
 }
 
 ol{
     list-style: none;
 }
 
+.ldt li{
+    font-size:75px;
+}
+
 .video{
     width: 600px;
     height: 600px;
-}
-
-.ldt li{
-    font-size:75px;
 }
