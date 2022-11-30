@@ -1,24 +1,69 @@
 @charset "UTF-8";
 
-body{
-    background-color: #010D00;
-    color: #F2E6D8;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 html, body{
     margin: 0;
     padding: 0;
 }
 
+:root{/*paleta de cores*/ 
+   --richarlisson:#8C0F1A;
+   --antony:#212121;
+   --defante:#F2E6D8;
+   --alisson:#ffffff;  
+   --danialves:#000000;
+}
+
+body{
+    background-color: var(--antony);
+    color: var(--defante);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+
+    padding: auto;
+    margin: auto;
+    Width: 75%;
+    text-align: center;
+    border: 2px solid var(--alisson);
+    border-radius: 1%;
+    
+}
+
+.inicio h1,h2,h3{
+    color:var(--richarlisson);
+    font-weight: bold;
+}
+
+.inicio p {
+    padding: 0;
+    font-size: 20px;
+    text-align: justify;
+}
+.packdown p{
+    color:var(--richarlisson);
+    font-size: 30px;
+}
+.packdown a{
+    text-decoration: none;
+}
+.packdown img{
+    width: 175px;
+    height: 175px;
+}
+
+.DownloadPack{
+    margin: auto;
+}
+
 a:link,:hover{
     text-decoration: none;
-    text-decoration: #F2E6D8;
-    color:#F2E6D8;
+    text-decoration: var(--defante);
+    color:var(--defante);
 }
 
 .header{
-    background-color: #8C0F1A;
+    background-color: var(--richarlisson);
     height: 100px;
     display: flex;  
     align-items: center;
@@ -51,18 +96,79 @@ a:link,:hover{
 }
 
 .header a{
-    color: #F2E6D8;
+    color: var(--defante);
 }
 
 ol{
     list-style: none;
 }
 
-.ldt li{
-    font-size:75px;
+.ldt{
+    font-size: 25px;
+    Width: 90%;
+}
+.ldt h1{
+    font-size: 75px;
+    color: var(--richarlisson);
+    font-weight: bold;
+}
+
+.ldt h2{
+    color: var(--richarlisson);
+    font-size: 35px;
 }
 
 .video{
     width: 600px;
     height: 600px;
+    border: 2px solid var(--alisson);
 }
+
+.rodape {
+	text-align: center;
+	background: url("imagens/bg.jpg");
+	padding: 0px 0;
+}
+
+.rodape p{
+    color: var(--richarlisson);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.rodape img{
+    height:150px;
+    width:150px;
+}
+
+.memes{
+    padding: auto;
+    margin: auto;
+    Width: 90%;
+    text-align: center;
+}
+
+.memes img{
+    border-radius: 15px;
+    padding: 0.3px;
+    width: 33%;
+    height: 33%;
+}
+
+.sup{
+    padding: auto;
+    margin: auto;
+    Width: 90%;
+    text-align: center;
+}
+.sup img{
+    width: 20%;
+    height: 20%;
+}
+
+.sup p{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+}
+
